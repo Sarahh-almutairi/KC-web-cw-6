@@ -8,13 +8,13 @@ let grade = prompt (
 console .log (
     grade
 )
-if (grade >=90 && grade <=100  ){
+ if (grade >=90 && grade <=100  ){
     console.log
     (
     `لقد حصلت على امتياز 🥳`
 );
 }
-if (grade <= 80 && grade <= 89){
+else if (grade >= 80 && grade <= 89){
 
 
     console.log
@@ -22,28 +22,28 @@ if (grade <= 80 && grade <= 89){
    );
 
 }
-if (
-    grade <= 70 && grade <=79
+else if (
+    grade >= 70 && grade <=79
 ){
     console.log
 
 (`لقد حصلت على جيد🙂`);
 }
 
-if (
-    grade <= 60 && grade <=69
+else if (
+    grade >= 60 && grade <=69
 ){ console.log
 (` لقد حصلت على مقبول 😕`);}
 
-if (
-    grade <= 50&& grade <= 59
+else if (
+    grade >= 50&& grade <= 59
 )
 { console.log
 (
   `لقد حصلت على ضعيف ☹️`
 );}
 
-if (grade <=50)
+else if (grade <=50)
 
 {
 
