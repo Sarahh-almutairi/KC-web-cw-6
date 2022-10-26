@@ -5,6 +5,7 @@ alert (
 let grade = prompt (
 "اكتب درجتك بالأرقام "
 )
+console .style.color = ('red') ;
 console .log (
     grade
 )
